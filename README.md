@@ -1,6 +1,6 @@
 ### Bspwm - dotfiles
 
-![img](images/blue.jpg)
+![img](images/blue.png)
 
 <details open>
   <summary><strong>Arch Linux (and all based distributions)</strong></summary>
