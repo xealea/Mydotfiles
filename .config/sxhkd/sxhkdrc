@@ -182,6 +182,10 @@ alt + XF86AudioMute
     [ $mo_mute = "true" ]  && dunstify "  Monitor Input MUTED" -t 1000 -r 1; \
     [ $mo_mute = "false" ] && dunstify "  Monitor Input UNMUTED" -t 1000 -r 1
 
-# scrennshot
+# screenshot
 ctrl + m
     flameshot gui
+
+# open telegram
+alt + t
+    telegram-desktop
