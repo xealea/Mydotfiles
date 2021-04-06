@@ -181,3 +181,7 @@ alt + XF86AudioMute
     mo_mute=$(pamixer --source 0 --get-mute); \
     [ $mo_mute = "true" ]  && dunstify "  Monitor Input MUTED" -t 1000 -r 1; \
     [ $mo_mute = "false" ] && dunstify "  Monitor Input UNMUTED" -t 1000 -r 1
+
+# scrennshot
+ctrl + m
+    flameshot gui
