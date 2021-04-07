@@ -1,8 +1,6 @@
 ### Bspwm - dotfiles
 
-![img](images/blue.png)
-![img](images/night.png)
-![img](images/rem.png)
+![img](images/dark.png)
 
 <details open>
   <summary><strong>Arch Linux (and all based distributions)</strong></summary>
