@@ -1,5 +1,5 @@
-<p align="center">
-<h3><b>bspwm - dotfiles</h3></b>
+
+                     bspwm - dotfiles
 
 | Dark - Blue |
 |-----------------------|
