@@ -8,6 +8,8 @@
 <details open>
   <summary><strong>Arch Linux (and all based distributions)</strong></summary>
 
+> used yay / paru for completely install dependency package
+
     $ paru -S dunst sxhkd pcmanfm python psmisc xorg-xprop xorg-xwininfo imagemagick \
       ffmpeg wireless_tools bspwm pulseaudio pulseaudio-alsa alsa-utils brightnessctl nitrogen \
       gsimplecal rofi polybar qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot \
@@ -17,6 +19,8 @@
 
 <details open>
   <summary><strong>Zsh - ohmyzsh (Optionaly)</strong></summary>
+
+> optionally for customize text in terminal
 
     $ sudo pacman -S zsh &&
     chsh -s $(command -v zsh) &&
