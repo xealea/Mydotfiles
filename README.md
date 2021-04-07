@@ -1,6 +1,9 @@
-### Bspwm - dotfiles
+<p align="center">
+<h3><b>bspwm - dotfiles</h3></b>
 
-![img](images/dark.png)
+| Dark - Blue |
+|-----------------------|
+|![img](images/dark.png)|
 
 <details open>
   <summary><strong>Arch Linux (and all based distributions)</strong></summary>
@@ -17,8 +20,8 @@
     git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions &&
     git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
 
-#### Credits
->   [@owl4ce](https://github.com/owl4ce) |
+Credits
+    [@owl4ce](https://github.com/owl4ce) |
     [@bandithijo](https://github.com/bandithijo) |
     [@6gk](https://github.com/6gk) |
     [@buffet](https://github.com/buffet/kiwmi)
