@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Iosevka Nerd Font 10";
+	font:							"M+2 c medium 9";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
