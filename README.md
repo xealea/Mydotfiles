@@ -4,7 +4,6 @@
 | Dark - Blue |
 |-----------------------|
 |![img](images/dark.png)|
-| NO-2 |
 |![img](images/blue.png)|
 
 <details open>
