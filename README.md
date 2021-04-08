@@ -12,10 +12,10 @@
 
     $ paru -S dunst sxhkd pcmanfm python psmisc xorg-xprop xorg-xwininfo imagemagick \
       ffmpeg wireless_tools bspwm pulseaudio pulseaudio-alsa alsa-utils brightnessctl nitrogen \
-      gsimplecal rofi polybar qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot \
-      thunar thunar-archive-plugin thunar-volman thunar-media-tags-plugin ffmpegthumbnailer tumbler viewnior \
-      mpv mpd mpc networkmanager-dmenu ncmpcpp pavucontrol parcellite neofetch w3m htop picom-ibhagwan-git gtk2-perl \
-      playerctl pamixer flameshot ranger nvim pipes.sh fet.sh
+      gsimplecal rofi polybar qt5-styleplugins xautolock rxvt-unicode-patched xclip scrot thunar \
+      thunar-archive-plugin thunar-volman thunar-media-tags-plugin ffmpegthumbnailer tumbler viewnior \
+      mpv mpd mpc networkmanager-dmenu ncmpcpp pavucontrol parcellite neofetch w3m htop picom-ibhagwan-git \
+      gtk2-perl playerctl pamixer flameshot ranger nvim pipes.sh fet.sh
 
 <details open>
   <summary><strong>Zsh - ohmyzsh (Optionaly)</strong></summary>
