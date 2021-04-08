@@ -1,7 +1,9 @@
 sw_volume: 95
 audio_device_state:1:Pulseaudio
 audio_device_state:1:fifo
-state: stop
+state: play
+current: 90
+time: 82.505000
 random: 0
 repeat: 0
 single: 0
@@ -79,4 +81,49 @@ playlist_begin
 66:01. WILL.flac
 67:01. キミはボクのプリンセス☆.flac
 68:01. 片恋.flac
+69:uwuesketit.mp3
+70:Trevor Daniel - Falling (Lyrics).mp3
+71:Tones and I - Never Seen The Rain (Lyrics).mp3
+72:The Chainsmokers - All We Know (Audio) ft. Phoebe Ryan.mp3
+73:Tate McRae - you broke me first (Lyrics).mp3
+74:Stray Kids 『SLUMP -Japanese ver.-』Music Video(TVアニメ「神之塔 -Tower of God-」ver.).mp3
+75:Taylor Swift - Love Story (Lyrics) _romeo save me_.mp3
+76:Tokyo Ghoul Opening Unravel Full.mp3
+77:Takanashi Kiara Ch. hololive-EN|Heart Challenger - Takanashi Kiara (Official Music Video).flac
+78:Sub Urban - Freak (Lyrics) feat. REI AMI.mp3
+79:Sia - Snowman ( cover by J.Fla ).mp3
+80:Shuta Sueyoshi _ HACK.mp3
+81:Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3
+82:Platinum Disco - MONOGATARI Series.m4a
+83:Heiakim - Darling.mp3
+84:Tessa Violet - Crush.mp3
+85:ClariS - Connect.mp3
+86:Be Alright CD 1 TRACK 1 (FLAC).flac
+87:06. chAngE.flac
+88:Blue Bird CD 1 TRACK 1 (FLAC).flac
+89:kenzie - Breathe.flac
+90:01. Clear Morning.flac
+91:XMASwu - 7 %【動態歌詞_Lyrics Video】.mp3
+92:Wrap Me In Plastic - CHROMANCE (Lyrics Video).mp3
+93:Weird Genius - Lathi (ft. Sara Fajira) Official Music Video.mp3
+94:01. ____.flac
+95:Nulbarich - Lost Game.mp3
+96:Dr. Dre - The Next Episode (San Holo Remix).mp3
+97:h - Ray.m4a
+98:東京オータムセッション　feat. 瀬戸口優・榎本夏樹・望月蒼太・早坂あかり・芹沢春輝・合.mp3
+99:愛に出会い恋は続く／HoneyWorks feat.Kotoha.mp3
+100:心海 - Eve MV.mp3
+101:10. Violet Snow(Original Ver.).flac
+102:Zara Larsson - Uncover.flac
+103:Why Don t We - Unbelievable.mp3
+104:Official HIGE DANdism - Yesterday.mp3
+105:Drake - Toosie Slide.mp3
+106:Tokyo Drift - Teriyaki Boyz _ MUSIC VIDEO _ HD.mp3
+107:This game CD 1 TRACK 1 (FLAC).flac
+108:DAOKO - 打上花火.flac
+109:01. Super Girl.flac
+110:cinnamons - summertime.mp3
+111:01_Stereo_Hearts_feat_Adam_Levine(1).mp3
+112:01_01_STARDUST SONG.flac
+113:03. ふたりごと.flac
 playlist_end
