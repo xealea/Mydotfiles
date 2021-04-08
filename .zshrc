@@ -8,7 +8,7 @@ export ZSH="/home/iocode/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="kardan"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -132,3 +132,34 @@ alias refram="$PRIV bash -c \"sync; echo 3 > /proc/sys/vm/drop_caches\""
 
 # GPG Dialog
 export GPG_TTY=$(tty)
+
+# prompt
+setopt prompt_subst  # enable command execution in prompt
+[ "$SSH_CLIENT" ] && export TERM=linux DISPLAY=:0
+
+topdir() {
+	## display dir in top-right
+	[ "$PWD" = "$HOME" ] && v='~' || v=${PWD##*/}
+	op=${OLDPWD##*/}
+
+	# save cursor pos, move cursor to the top-right
+	# then delete the previous contents
+	# then print the new dir and restore cursor pos
+	printf '%b%b%b' \
+		"\033[s\033[0;9999H" \
+		"\033[${#op}D\033[K" \
+		"\033[999C\033[${#v}D$v\033[u"
+}
+
+# fancy prompts
+command_not_found_handler() {
+	printf 'not found:\033[38;05;%sm %s\033[0m\n' "$acc" "$0" >&2
+	return 127
+}
+
+case $TERM in
+	linux) acc=4  acc2=1  PROMPT=' %1~%F{%(?.4.1)} %(!.|./) %f';;
+	*)     acc=16 acc2=17 PROMPT=$'%{\e[?25h\e[4 q%}%{$(topdir)%}%F{%(?.$acc.$acc2)} > %f'
+esac
+
+export SUDO_PROMPT=$'pass for\033[38;05;'"${acc}m %u"$'\033[0m '
