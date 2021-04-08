@@ -4,6 +4,9 @@
 | Dark - Blue |
 |-----------------------|
 |![img](images/dark.png)|
+| Preview number 2 |
+|-----------------------|
+|![img](images/blue.png)|
 
 <details open>
   <summary><strong>Arch Linux (and all based distributions)</strong></summary>
