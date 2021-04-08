@@ -4,8 +4,7 @@
 | Dark - Blue |
 |-----------------------|
 |![img](images/dark.png)|
-| Preview number 2 |
-|-----------------------|
+| NO-2 |
 |![img](images/blue.png)|
 
 <details open>
