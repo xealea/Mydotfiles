@@ -8,7 +8,7 @@ export ZSH="/home/iocode/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="arrow"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -159,7 +159,7 @@ command_not_found_handler() {
 
 case $TERM in
 	linux) acc=4  acc2=1  PROMPT=' %1~%F{%(?.4.1)} %(!.|./) %f';;
-	*)     acc=16 acc2=17 PROMPT=$'%{\e[?25h\e[4 q%}%{$(topdir)%}%F{%(?.$acc.$acc2)} > %f'
+	*)     acc=16 acc2=17 PROMPT=$'%{\e[?25h\e[4 q%}%F{%(?.$acc.$acc2)} ~ %f'
 esac
 
 export SUDO_PROMPT=$'pass for\033[38;05;'"${acc}m %u"$'\033[0m '
