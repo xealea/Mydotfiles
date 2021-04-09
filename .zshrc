@@ -135,7 +135,7 @@ export GPG_TTY=$(tty)
 
 # prompt
 setopt prompt_subst  # enable command execution in prompt
-[ "$SSH_CLIENT" ] && export TERM=linux DISPLAY=:0
+[ "$SSH_CLIENT" ] && export TERM=urxvt DISPLAY=:0
 
 topdir() {
 	## display dir in top-right

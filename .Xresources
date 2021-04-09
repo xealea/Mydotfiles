@@ -2,7 +2,7 @@
 
 ! URXVT APPEARANCE
 URxvt.font:                       xft:M+1c medium:pixelsize=11:antialias=true
-URxvt.geometry:                   54x24
+URxvt.geometry:                   66x18
 URxvt.internalBorder:             20
 URxvt.cursorBlink:                true
 URxvt.cursorUnderline:            true
@@ -67,14 +67,14 @@ URxvt.url-select.underline:       true
 ! black > red > green > yellow > blue > magenta > cyan > white
 #define black0                    [100]#1D2021
 #define black1                    #3B4252
-#define dark2                     #1D2021
-#define black3                    #4C566A
+#define bl3                       #1D2021
+#define black3                    #5590E7
 #define blue0                     #5590E7
 #define blue1                     #74A2E7
 #define yellow0                   #FA946E
 #define yellow1                   #FAA687
-#define purple0                   #434C5E
-#define purple1                   #7D7F83
+#define purple0                   #5590E7
+#define blue4                     #5590E7
 #define magenta0                  #CF8EF4
 #define magenta1                  #D8A6F4
 #define cyan0                     #89CCF7
@@ -90,10 +90,10 @@ URxvt.url-select.underline:       true
 *.color5:                         magenta0
 *.color6:                         cyan0
 
-*.color9:                         purple1
+*.color9:                         blue4
 *.color10:                        blue1
 *.color11:                        yellow1
-*.color12:                        purple1
+*.color12:                        blue4
 *.color13:                        magenta1
 *.color14:                        cyan1
 
@@ -102,7 +102,7 @@ URxvt.url-select.underline:       true
 *.background:                     black0
 *.cursorColor:                    white0
 
-*.color0:                         dark2
+*.color0:                         bl3
 *.color7:                         white1
 
 *.color8:                         black3
@@ -113,7 +113,7 @@ URxvt.url-select.underline:       true
 !*.cursorColor:                    black0
 
 !*.color0:                         white1
-!*.color7:                         dark2
+!*.color7:                         bl3
 
 !*.color8:                         white2
 !*.color15:                        black3
