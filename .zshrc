@@ -139,7 +139,7 @@ setopt prompt_subst  # enable command execution in prompt
 
 topdir() {
 	## display dir in top-right
-	[ "$PWD" = "$HOME" ] && v='~' || v=${PWD##*/}
+	[ "$PWD" = "$HOME" ] && v='' || v=${PWD##*/}
 	op=${OLDPWD##*/}
 
 	# save cursor pos, move cursor to the top-right
@@ -158,8 +158,8 @@ command_not_found_handler() {
 }
 
 case $TERM in
-	linux) acc=4  acc2=1  PROMPT=' %1~%F{%(?.4.1)} %(!.|./) %f';;
-	*)     acc=16 acc2=17 PROMPT=$'%{\e[?25h\e[4 q%}%F{%(?.$acc.$acc2)} ~ %f'
+	urxvt) acc=4  acc2=1  PROMPT=' %1~%F{%(?.4.1)} %(!.|./) %f';;
+	*)     acc=16 acc2=16 PROMPT=$'%{\e[?25h\e[4 q%}%F{%(?.$acc.$acc2)} %f'
 esac
 
-export SUDO_PROMPT=$'pass for\033[38;05;'"${acc}m %u"$'\033[0m '
+export SUDO_PROMPT=$'pass ='
