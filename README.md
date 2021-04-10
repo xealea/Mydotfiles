@@ -67,7 +67,7 @@
 #### Credits & Many Thanks
 > Inspiration and resources
 
-* [owl4ce](https://github.com/owl4ce>owl4ce)
+* [owl4ce](https://github.com/owl4ce)
 * [bandithijo](https://github.com/bandithijo)
 * [6gk](https://github.com/6gk)
 -----------------------------------------
