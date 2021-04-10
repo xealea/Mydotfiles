@@ -43,6 +43,7 @@
     $ rsync -avxHAXP --exclude '.git*' .* ~/
 
 #### Details
+<p align="center">
 
 |         Item          | Value                                           |
 | :-------------------: | :---------------------------------------------- |
@@ -63,8 +64,10 @@
 |    Network Applet     | networkmanager-dmenu                            |
 |      Text Editor      | neovim                                          |
 
-#### Credits
-    
-[@owl4ce](https://github.com/owl4ce) |
-[@bandithijo](https://github.com/bandithijo) |
-[@6gk](https://github.com/6gk)
+#### Credits & Many Thanks
+> Inspiration and resources
+
+* [owl4ce](https://github.com/owl4ce>owl4ce)
+* [bandithijo](https://github.com/bandithijo)
+* [6gk](https://github.com/6gk)
+-----------------------------------------
