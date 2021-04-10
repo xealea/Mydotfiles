@@ -38,5 +38,4 @@
 Credits
     [@owl4ce](https://github.com/owl4ce) |
     [@bandithijo](https://github.com/bandithijo) |
-    [@6gk](https://github.com/6gk) |
-    [@buffet](https://github.com/buffet/kiwmi)
+    [@6gk](https://github.com/6gk)
