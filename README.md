@@ -5,9 +5,7 @@
 |-----------------------|
 |![img](images/dark.png)|
 
-<details open>
-  <summary><strong>Arch Linux (and all based distributions)</strong></summary>
-
+##### Dependency ( Install Before Want Use Dotfiles )
 > used yay / paru for completely install dependency package
 
     $ paru -S rsync dunst sxhkd pcmanfm python psmisc xorg-xprop xorg-xwininfo imagemagick \
@@ -17,9 +15,7 @@
       mpv mpd mpc networkmanager-dmenu ncmpcpp pavucontrol parcellite neofetch w3m htop picom-ibhagwan-git \
       gtk2-perl playerctl pamixer flameshot ranger nvim pipes.sh fet.sh
 
-<details open>
-  <summary><strong>Zsh - ohmyzsh (Optionaly)</strong></summary>
-
+##### Zsh-Ohmyzsh ( Optionally But Im Recommended )
 > optionally for customize text in terminal
 
     $ sudo pacman -S zsh &&
@@ -29,12 +25,12 @@
     git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions &&
     git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
 
-### Installation
+#### Installation
 > You can clone or download it as a zip. After that put all files in the dotfiles folder to user's home directory.
     
     $ git clone https://github.com/vcyzteen/Mydotfiles.git && cd Mydotfiles/
 
-### rsync files
+#### rsync files
 > Recommended
     
     $ rsync -avxHAXP --exclude '.git*' .* ~/
