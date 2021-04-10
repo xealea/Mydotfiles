@@ -10,7 +10,7 @@
 
 > used yay / paru for completely install dependency package
 
-    $ paru -S dunst sxhkd pcmanfm python psmisc xorg-xprop xorg-xwininfo imagemagick \
+    $ paru -S rsync dunst sxhkd pcmanfm python psmisc xorg-xprop xorg-xwininfo imagemagick \
       ffmpeg wireless_tools bspwm pulseaudio pulseaudio-alsa alsa-utils brightnessctl nitrogen \
       gsimplecal rofi polybar qt5-styleplugins xautolock rxvt-unicode-patched xclip scrot thunar \
       thunar-archive-plugin thunar-volman thunar-media-tags-plugin ffmpegthumbnailer tumbler viewnior \
@@ -28,6 +28,16 @@
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting &&
     git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions &&
     git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+### Installation
+> You can clone or download it as a zip. After that put all files in the dotfiles folder to user's home directory.
+    
+    $ git clone https://github.com/vcyzteen/Mydotfiles.git && cd Mydotfiles/
+
+### rsync files
+> Recommended
+    
+    $ rsync -avxHAXP --exclude '.git*' .* ~/
 
 Credits
     [@owl4ce](https://github.com/owl4ce) |
