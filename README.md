@@ -56,7 +56,7 @@
 |    Network Applet     | networkmanager-dmenu                            |
 |      Text Editor      | neovim                                          |
 
-Credits
+#### Credits
     [@owl4ce](https://github.com/owl4ce) |
     [@bandithijo](https://github.com/bandithijo) |
     [@6gk](https://github.com/6gk)
