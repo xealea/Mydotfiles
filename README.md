@@ -1,5 +1,4 @@
-
-                     bspwm - dotfiles
+*                  bspwm - dotfiles
 
 | Dark - Blue |
 |-----------------------|
@@ -70,4 +69,9 @@
 * [owl4ce](https://github.com/owl4ce)
 * [bandithijo](https://github.com/bandithijo)
 * [6gk](https://github.com/6gk)
+-----------------------------------------
+
+#### Buy me a ko-fi
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/iocode)
+
 -----------------------------------------
