@@ -57,6 +57,7 @@
 |      Text Editor      | neovim                                          |
 
 #### Credits
-    [@owl4ce](https://github.com/owl4ce) |
-    [@bandithijo](https://github.com/bandithijo) |
-    [@6gk](https://github.com/6gk)
+    
+[@owl4ce](https://github.com/owl4ce) |
+[@bandithijo](https://github.com/bandithijo) |
+[@6gk](https://github.com/6gk)
