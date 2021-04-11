@@ -38,7 +38,7 @@ $ git clone https://github.com/vcyzteen/Mydotfiles.git && cd Mydotfiles/
 #### enable some services
 > systemd.sh for systemd and runit.sh for runit ( if lazy to enable one by one )
 ```bash
-    
+
 $ sudo su
 $ chmod +x runit.sh && chmod +x systemd.sh
 $ bash <file.sh>
