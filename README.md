@@ -79,6 +79,7 @@ $ rsync -avxHAXP --exclude '.git*' .* ~/
 * [owl4ce](https://github.com/owl4ce)
 * [bandithijo](https://github.com/bandithijo)
 * [6gk](https://github.com/6gk)
+* [adi1090x](https://github.com/adi1090x)
 -----------------------------------------
 
 #### Buy me a ko-fi
