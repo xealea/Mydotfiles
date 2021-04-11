@@ -1,4 +1,6 @@
-*                  bspwm - dotfiles
+<b><p align="center">Bspwm - dotfiles</p></b>
+
+------------------------------
 
 | Dark - Blue |
 |-----------------------|
