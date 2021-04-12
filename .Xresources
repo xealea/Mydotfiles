@@ -65,16 +65,16 @@ URxvt.url-select.underline:       true
 
 ! COLOR SCHEME
 ! black > red > green > yellow > blue > magenta > cyan > white
-#define black0                    [100]#1D2021
+#define black0                    [100]#2A2C3A
 #define black1                    #3B4252
-#define bl3                       #1D2021
-#define black3                    #5590E7
-#define blue0                     #5590E7
+#define bl3                       #100E0E
+#define black3                    #F4506D
+#define blue0                     #F4506D
 #define blue1                     #74A2E7
 #define yellow0                   #FA946E
 #define yellow1                   #FAA687
-#define purple0                   #5590E7
-#define blue4                     #5590E7
+#define purple0                   #F4506D
+#define blue4                     #F4506D
 #define magenta0                  #CF8EF4
 #define magenta1                  #D8A6F4
 #define cyan0                     #89CCF7
