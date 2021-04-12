@@ -5,7 +5,7 @@
 
 | Dark - Blue |
 |-----------------------|
-|![img](images/dark.png)|
+|![img](images/red.png)|
 
 ------------------------------
 <b><p align="center">Details</p></b>
