@@ -12,24 +12,28 @@
 
 ------------------------------
 
-|         Item          | Value                                           |
-| :-------------------: | :---------------------------------------------- |
-|          OS           | ArchLinux, artix runit                          |
-|          WM           | bspwm                                           |
-|         Shell         | zsh                                             |
-|          DM           | lightdm                                         |
-|         Font          | M+1 / M+2                                       |
-|      Compositor       | picom, compton                                  |
-|     Notification      | dunst                                           |
-|       Terminal        | urxvt                                           |
-|       Launcher        | rofi, dmenu                                     |
-|          Bar          | polybar                                         |
-|       Wallpaper       | feh, nitrogen                                   |
-|   Logout / Shutdown   | script                                          |
-|    Volume Control     | pamixer, pulseaudio                             |
-| Brightness Controller | keybind, mouse roll                             |
-|    Network Applet     | networkmanager-dmenu                            |
-|      Text Editor      | neovim                                          |
+```
+---------------------------------------------------
+|         Item          | Value                   |
+| :-------------------: | :-----------------------|
+|          OS           | ArchLinux, artix runit  |
+|          WM           | bspwm                   |
+|         Shell         | zsh                     |
+|          DM           | lightdm                 |
+|         Font          | M+1 / M+2               |
+|      Compositor       | picom, compton          |
+|     Notification      | dunst                   |
+|       Terminal        | urxvt                   |
+|       Launcher        | rofi, dmenu             |
+|          Bar          | polybar                 |
+|       Wallpaper       | feh, nitrogen           |
+|   Logout / Shutdown   | script                  |
+|    Volume Control     | pamixer, pulseaudio     |
+| Brightness Controller | keybind, mouse roll     |
+|    Network Applet     | networkmanager-dmenu    |
+|      Text Editor      | neovim                  |
+---------------------------------------------------
+```
 
 ------------------------------
 <b><p align="center">Dependency ( Install Before Want Use Dotfiles )</p></b>
