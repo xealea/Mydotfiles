@@ -25,8 +25,8 @@
 |     Notification      | dunst                   |
 |       Terminal        | urxvt                   |
 |       Launcher        | rofi, dmenu             |
-|          Bar          | polybar                 |
-|       Wallpaper       | feh, nitrogen           |
+|          Bar          | tint2                   |
+|       Wallpaper       | feh                     |
 |   Logout / Shutdown   | script                  |
 |    Volume Control     | pamixer, pulseaudio     |
 | Brightness Controller | keybind, mouse roll     |
