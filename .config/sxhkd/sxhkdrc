@@ -14,10 +14,6 @@ alt + x
 super + z
     $HOME/.config/rofi/launchers/text/launcher.sh
     
-# program launcher
-super + @space
-	dmenu_run -fn 'M+ 1p light'
-
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -188,7 +184,7 @@ alt + XF86AudioMute
 
 # screenshot
 ctrl + m
-    flameshot gui
+   bash ~/.scripts/screenshot
 
 # open telegram
 alt + t

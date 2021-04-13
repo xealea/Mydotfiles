@@ -51,4 +51,5 @@ fi
 twm &
 lightdm &
 sxhkd &
+systemctl --user import-environment DISPLAY &
 exec bspwm

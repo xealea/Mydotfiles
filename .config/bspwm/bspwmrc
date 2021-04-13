@@ -56,10 +56,14 @@ mpd ~/.mpd/config.conf &
 picom &
 # ----------------------------------------------------------------------------
 
+# Xautolock ------------------------------------------------------------------
+xautolock -time 5 -locker "systemctl suspend" -detectsleep &
+# ----------------------------------------------------------------------------
+
 # Notify Dll -----------------------------------------------------------------
 nm-applet &
 xrdb .Xresources &
 xrdb merge .Xresources &
-dbus-launch dunst &
-tint2 -c $HOME/.config/tint2/tint2rc
+dbus-launch /usr/bin/dunst &
+exec tint2 &
 # End ------------------------------------------------------------------------

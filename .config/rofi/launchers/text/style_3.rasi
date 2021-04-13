@@ -9,7 +9,7 @@
 
 configuration {
     lines:							4;
-    columns:						1;
+    columns:						3;
     font: 							"Iosevka Nerd Font 12";
     bw: 							0;
     location: 						0;
@@ -19,7 +19,7 @@ configuration {
     sidebar-mode: 					true;
     separator-style: 				"none";
     hide-scrollbar: 				true;
-    fullscreen: 					false;
+    fullscreen: 					true;
     fake-transparency: 				false;
     scroll-method: 					0;
     window-format: 					"[{w}] ··· {c} ···   {t}";

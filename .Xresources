@@ -67,7 +67,7 @@ URxvt.url-select.underline:       true
 ! black > red > green > yellow > blue > magenta > cyan > white
 #define black0                    [100]#2A2C3A
 #define black1                    #3B4252
-#define bl3                       #100E0E
+#define bl3                       #2A2C3A
 #define black3                    #F4506D
 #define blue0                     #F4506D
 #define blue1                     #74A2E7
