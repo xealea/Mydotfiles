@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 WALL_DIR="$HOME/.wallpaper"
 R="\e[1;31m"; G="\e[1;32m"; M="\e[1;35m"; C="\e[1;36m"; W="\e[1;37m"; NC="\e[0m"
 
