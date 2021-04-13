@@ -98,6 +98,15 @@ $ bash <file.sh>
 $ rsync -avxHAXP --exclude '.git*' .* ~/
 ```
 ------------------------------
+<b><p align="center">how set wallpaper</p></b>
+------------------------------
+
+> open terminal first
+```bash
+
+$ bash ~/.scripts/wallset
+```
+------------------------------
 <b><p align="center">Credits & Many Thanks</p></b>
 
 ------------------------------
