@@ -126,7 +126,13 @@ $ bash ~/.scripts/wallset
 
     current_theme Ark-japan
 
-> and if you want use lock screen as default. you can manage like this. go to .xinitrc by typing nano .xinitrc and added this code before last code
+> and if you want use lock screen as default
+
+> uncomment this code first in /etc/slim.conf
+
+    # sessiondir            /usr/share/xsessions/
+
+> and next you can manage like this. go to .xinitrc by typing nano .xinitrc and added this code before last code
 
     # slim-lockscreen
 
