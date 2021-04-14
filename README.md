@@ -110,17 +110,13 @@ $ bash ~/.scripts/wallset
 
 ------------------------------
 <b><p align="center">Slim Themes "SOON"</p></b>
-  <details>
-  <summary><strong>See</strong></summary>
-  
-    <p align="center">In fact, I use SLiM just for lockscreen.</p>
-    
-    <p align="center"><a href="">
-      <img src="https://github.com/vcyzteen/Mydotfiles/blob/master/images/slim.png" alt="Ark-red" align="center"/>
-    </a></p>
-    
-    <p align="center">Just click on the image above!</p>    
-  </details>
+<details>
+<summary><strong>See</strong></summary>
+<p align="center">In fact, I use SLiM just for lockscreen.</p>
+<p align="center"><a href="">
+<img src="https://github.com/vcyzteen/Mydotfiles/blob/master/images/slim.png" alt="Ark-red" align="center"/></a></p>
+<p align="center">Just click on the image above!</p>    
+</details>
   
 ------------------------------
 <b><p align="center">Credits & Many Thanks</p></b>
