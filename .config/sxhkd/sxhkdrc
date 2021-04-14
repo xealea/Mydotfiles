@@ -6,6 +6,10 @@
 super + Return
 	urxvt
 
+# jgmenu-launch
+alt + ~button3
+    exec jgmenu_run
+
 # network open
 alt + x
     /usr/bin/networkmanager_dmenu
