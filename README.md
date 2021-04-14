@@ -108,7 +108,7 @@ $ rsync -avxHAXP --exclude '.git*' .* ~/
 $ bash ~/.scripts/wallset
 ```
 ------------------------------
-<b><p align="center">Credits & Many Thanks</p></b*
+<b><p align="center">Credits & Many Thanks</p></b>
 
 ------------------------------
 
