@@ -109,7 +109,7 @@ $ bash ~/.scripts/wallset
 ```
 
 ------------------------------
-<b><p align="center">Slim Themes "SOON"</p></b>
+<b><p align="center">Slim Themes Ark-japan</p></b>
 <p align="center">In fact, I use SLiM for default lockscreen.</p>
 <p align="center"><a href="https://drive.google.com/drive/folders/1_Ktq9kGqDi0TNC8Q49AWpLo2HvWkPhnQ?usp=sharing">
 <img src="https://github.com/vcyzteen/Mydotfiles/blob/master/images/slim.png" alt="Ark-red" align="center"/></a></p>
