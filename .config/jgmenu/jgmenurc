@@ -1,0 +1,44 @@
+terminal_exec       = urxvt
+terminal_args       = -e
+tint2_look          = 0
+at_pointer          = 1
+hide_on_startup     = 0
+#menu_margin_x       = 150
+#menu_margin_y       = 250
+#menu_width          = 400
+#menu_height_min     = 0
+#menu_height_max     = 0
+menu_height_mode    = static
+menu_padding_top    = 0
+menu_padding_right  = 0
+menu_padding_bottom = 0
+menu_padding_left   = 0
+menu_radius         = 0
+menu_border         = 0
+menu_halign         = left
+menu_valign         = bottom
+
+font                 = M+2 c medium 9
+icon_size           = 9
+#icon_text_spacing   = 10
+#icon_theme          =
+#icon_theme_fallback = xtg
+
+sub_spacing         = 0
+sub_padding_top     = 0
+sub_padding_right   = 0
+sub_padding_bottom  = 0
+sub_padding_left    = 0
+sub_hover_action    = 1
+
+color_menu_bg       = #2a2c3a 90
+color_menu_border   = #2a2c3a 90
+
+color_norm_bg       = #282828 0
+color_norm_fg       = #ffffff 100
+
+color_sel_bg        = #f4506d 85
+color_sel_fg        = #2a2c3a 85
+color_sel_border    = #2a2c3a 0
+
+color_sep_fg        = #ffffff 0
