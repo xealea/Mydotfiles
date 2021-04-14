@@ -116,8 +116,10 @@ $ bash ~/.scripts/wallset
 <p align="center">Just click on the image above!</p>
 
 > enable slim service by
+
     $ sudo systemctl disable lightdm.service 
     $ sudo systemctl enable slim.service   
+
 > and if done next step
     Extract .zip files and copy folder extracted to /usr/share/slim/themes/
     Then edit the /etc/slim.conf file using text editor. Adjust, for example as follows:
