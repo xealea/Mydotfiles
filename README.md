@@ -114,6 +114,7 @@ $ bash ~/.scripts/wallset
 <p align="center"><a href="https://drive.google.com/drive/folders/1_Ktq9kGqDi0TNC8Q49AWpLo2HvWkPhnQ?usp=sharing">
 <img src="https://github.com/vcyzteen/Mydotfiles/blob/master/images/slim.png" alt="Ark-red" align="center"/></a></p>
 <p align="center">Just click on the image above!</p>
+
 > enable slim service by
     $ sudo systemctl disable lightdm.service 
     $ sudo systemctl enable slim.service   
