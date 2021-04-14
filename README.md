@@ -144,7 +144,7 @@ $ bash ~/.scripts/wallset
         *) exec $DEFAULTSESSION ;;
     esac
 
-> note if any exec command for bspwm ( double ) like in bellow .xinitrc have exec bspwm or dbus-launch bspwm you can managed in above code
+> note if any exec command for bspwm ( double ) like in bellow .xinitrc have exec bspwm or dbus-launch bspwm you can delete and managed in above code
 
 ------------------------------
 <b><p align="center">Credits & Many Thanks</p></b>
