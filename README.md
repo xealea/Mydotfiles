@@ -126,6 +126,26 @@ $ bash ~/.scripts/wallset
 
     current_theme Ark-japan
 
+> and if you want use lock screen as default. you can manage like this. go to .xinitrc by typing nano .xinitrc and added this code before last code
+
+    # slim-lockscreen
+
+    DEFAULTSESSION=bspwm
+
+    case "$1" in
+        bspwm) exec bspwm ;;
+        xfce) exec xfce4-session ;;
+        gnome3) exec gnome-session ;;
+        kde) exec startkde ;;
+        cinnamon) exec gnome-session-cinnamon ;;
+        razor-qt) exec razor-session ;;
+        lxde) exec lxsession ;;
+        mate) exec mate-session ;;
+        *) exec $DEFAULTSESSION ;;
+    esac
+
+> note if any exec command for bspwm ( double ) like in bellow .xinitrc have exec bspwm or dbus-launch bspwm you can managed in above code
+
 ------------------------------
 <b><p align="center">Credits & Many Thanks</p></b>
 
