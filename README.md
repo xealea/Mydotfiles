@@ -102,13 +102,13 @@ $ rsync -avxHAXP --exclude '.git*' .* ~/
 
 ------------------------------
 
-> open terminal first ( note this not permanently set ) if you need set wallpaper permanently go to ~/.config/bspwm/bspwmrc and edit this line line feh /path/to/wall/io-match.png
+> open terminal first ( note this not permanently set ) if you need set wallpaper permanently go to *~/.config/bspwm/bspwmrc* and edit this line line feh /path/to/wall/io-match.png
 ```bash
 
 $ bash ~/.scripts/wallset
 ```
 ------------------------------
-<b><p align="center">Credits & Many Thanks</p></b>
+<b><p align="center">Credits & Many Thanks</p></b*
 
 ------------------------------
 
