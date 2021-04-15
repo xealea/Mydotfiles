@@ -140,23 +140,25 @@ $ bash ~/.scripts/wallset
 
 ```bash
 
-    # slim-lockscreen
+# slim-lockscreen
 
-    DEFAULTSESSION=bspwm
+DEFAULTSESSION=bspwm
 
-    case "$1" in
-        bspwm) exec bspwm ;;
-        xfce) exec xfce4-session ;;
-        gnome3) exec gnome-session ;;
-        kde) exec startkde ;;
-        cinnamon) exec gnome-session-cinnamon ;;
-        razor-qt) exec razor-session ;;
-        lxde) exec lxsession ;;
-        mate) exec mate-session ;;
-        *) exec $DEFAULTSESSION ;;
-    esac
+case "$1" in
+    bspwm) exec bspwm ;;
+    xfce) exec xfce4-session ;;
+    gnome3) exec gnome-session ;;
+    kde) exec startkde ;;
+    cinnamon) exec gnome-session-cinnamon ;;
+    razor-qt) exec razor-session ;;
+    lxde) exec lxsession ;;
+    mate) exec mate-session ;;
+    *) exec $DEFAULTSESSION ;;
+esac
 ```
-> note if any exec command for bspwm ( double ) like in bellow .xinitrc have exec bspwm or dbus-launch bspwm you can delete and managed in above code
+> note if any exec command for bspwm ( double ) like in bellow .xinitrc have exec bspwm or dbus-launch bspwm you can delete and managed in above code and if your cursor being weird you can added this code in .xinitrc
+
+    xsetroot -cursor_name left_ptr &
 
 ------------------------------
 
@@ -174,16 +176,16 @@ $ bash ~/.scripts/wallset
 
 ```bash
 
-    $ git clone https://github.com/vcyzteen/spicetify-themes
-    $ cd spicetify-themes
-    $ cp -r * ~/.config/spicetify/Themes
-    $ cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
-      mkdir -p ../../Extensions
-      cp dribbblish.js ../../Extensions/.
-      spicetify config extensions dribbblish.js
-      spicetify config current_theme Dribbblish color_scheme ark
-      spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
-      spicetify apply
+$ git clone https://github.com/vcyzteen/spicetify-themes
+$ cd spicetify-themes
+$ cp -r * ~/.config/spicetify/Themes
+$ cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
+  mkdir -p ../../Extensions
+  cp dribbblish.js ../../Extensions/.
+  spicetify config extensions dribbblish.js
+  spicetify config current_theme Dribbblish color_scheme ark
+  spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
+  spicetify apply
 ```
 > done?. go restart your spotify and BOOM!
 
