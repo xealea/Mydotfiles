@@ -153,6 +153,13 @@ $ bash ~/.scripts/wallset
 > note if any exec command for bspwm ( double ) like in bellow .xinitrc have exec bspwm or dbus-launch bspwm you can delete and managed in above code
 
 ------------------------------
+<b><p align="center">Spicetify - Theme</p></b>
+<p align="center">theme for spotify</p>
+<p align="center"><a href="https://github.com/vcyzteen/spicetify-themes/tree/master/Dribbblish">
+<img src="https://github.com/vcyzteen/spicetify-themes/blob/master/Dribbblish/2021-04-15-165740_1366x768_scrot.png" alt="Spotify-Theme-Ark" align="center"/></a></p>
+<p align="center">Just click on the image above!</p>
+
+------------------------------
 <b><p align="center">Credits & Many Thanks</p></b>
 
 ------------------------------
