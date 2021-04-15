@@ -168,7 +168,7 @@ $ bash ~/.scripts/wallset
 
 > and if done next step you can download or clone git repo spicetify in image
 
-``bash
+```bash
 
     $ cd spicetify-themes
     $ cp -r * ~/.config/spicetify/Themes
