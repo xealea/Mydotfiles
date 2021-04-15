@@ -134,6 +134,8 @@ $ bash ~/.scripts/wallset
 
 > and next you can manage like this. go to .xinitrc by typing nano .xinitrc and added this code before last code
 
+```bash
+
     # slim-lockscreen
 
     DEFAULTSESSION=bspwm
@@ -149,7 +151,7 @@ $ bash ~/.scripts/wallset
         mate) exec mate-session ;;
         *) exec $DEFAULTSESSION ;;
     esac
-
+```
 > note if any exec command for bspwm ( double ) like in bellow .xinitrc have exec bspwm or dbus-launch bspwm you can delete and managed in above code
 
 ------------------------------
@@ -166,6 +168,8 @@ $ bash ~/.scripts/wallset
 
 > and if done next step you can download or clone git repo spicetify in image
 
+``bash
+
     $ cd spicetify-themes
     $ cp -r * ~/.config/spicetify/Themes
     $ cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
@@ -175,7 +179,7 @@ $ bash ~/.scripts/wallset
       spicetify config current_theme Dribbblish color_scheme ark
       spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
       spicetify apply
-
+```
 > done?. go restart your spotify and BOOM!
 
 ------------------------------
