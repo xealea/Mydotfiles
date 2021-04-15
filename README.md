@@ -1,4 +1,8 @@
 ------------------------------
+<h3 align="center">👋 Hi there Thanks For Visiting</h3>
+<img alt="" align="right" src="https://badges.pufler.dev/visits/vcyzteen/Mydotfiles?style=flat-square&label=&color=fa74b2&logo=GitHub&logoColor=white&labelColor=373e4d"/>
+
+------------------------------
 <b><p align="center">Bspwm - dotfiles</p></b>
 
 ------------------------------
