@@ -160,6 +160,24 @@ $ bash ~/.scripts/wallset
 <img src="https://github.com/vcyzteen/spicetify-themes/blob/master/Dribbblish/2021-04-15-165740_1366x768_scrot.png" alt="Spotify-Theme-Ark" align="center"/></a></p>
 <p align="center">Just click on the image above!</p>
 
+> if you want install. first install spicetify cli by command
+
+    $ paru -S spicetify-cli
+
+> and if done next step you can download or clone git repo spicetify in image
+
+    $ cd spicetify-themes
+    $ cp -r * ~/.config/spicetify/Themes
+    $ cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
+      mkdir -p ../../Extensions
+      cp dribbblish.js ../../Extensions/.
+      spicetify config extensions dribbblish.js
+      spicetify config current_theme Dribbblish color_scheme ark
+      spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
+      spicetify apply
+
+> done?. go restart your spotify and BOOM!
+
 ------------------------------
 
 <b><p align="center">Credits & Many Thanks</p></b>
