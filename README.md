@@ -170,6 +170,7 @@ $ bash ~/.scripts/wallset
 
 ```bash
 
+    $ git clone https://github.com/vcyzteen/spicetify-themes
     $ cd spicetify-themes
     $ cp -r * ~/.config/spicetify/Themes
     $ cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
