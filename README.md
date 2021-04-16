@@ -156,9 +156,7 @@ case "$1" in
     *) exec $DEFAULTSESSION ;;
 esac
 ```
-> note if any exec command for bspwm ( double ) like in bellow .xinitrc have exec bspwm or dbus-launch bspwm you can delete and managed in above code and if your cursor being weird you can added this code in .xinitrc
-
-    xsetroot -cursor_name left_ptr &
+> note if any exec command for bspwm ( double ) like in bellow .xinitrc have exec bspwm or dbus-launch bspwm you can delete and managed in above code
 
 ------------------------------
 
