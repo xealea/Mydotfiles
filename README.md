@@ -113,7 +113,7 @@ $ bash ~/.scripts/wallset
 ```
 
 ------------------------------
-<b><p align="center">Slim Themes Ark-japan</p></b>
+<b><p align="center">Slim Themes Ark-Hifumi</p></b>
 <p align="center">In fact, I use SLiM for default lockscreen.</p>
 <p align="center"><a href="https://drive.google.com/drive/folders/1_Ktq9kGqDi0TNC8Q49AWpLo2HvWkPhnQ?usp=sharing">
 <img src="https://github.com/vcyzteen/Mydotfiles/blob/master/images/slim.png" alt="Ark-red" align="center"/></a></p>
@@ -128,7 +128,7 @@ $ bash ~/.scripts/wallset
     Extract .zip files and copy folder extracted to /usr/share/slim/themes/
     Then edit the /etc/slim.conf file using text editor. Adjust, for example as follows:
 
-    current_theme Ark-japan
+    current_theme Ark-Hifumi
 
 > and if you want use lock screen as default
 
