@@ -6,44 +6,15 @@ ENABLE_FRAME="yes"
 FRAME_COLOR="#2A2C3A"
 COPY_FRAMED="yes"
 OPEN_FRAMED="no"
-FRAMED_SHADOW_OPACITY="25"
+FRAMED_SHADOW_OPACITY="50"
 QUALITY="100"
 
-noterr() { dusntify -u ss -r 12 "Install scrot!"; exit 1; }
+noterr() { dunstify -u low -r 11 "Install scrot!"; exit 1; }
 type -p "scrot" &> /dev/null || noterr
 
 {
-    [[ ! -d "$SAVE_DIR/Screenshots" ]] && mkdir -p "$SAVE_DIR/Screenshots"; read -rt ".1" <> <(:) || :
-    rm -f /tmp/*_scrot*.png &> /dev/null
-    scrot -q "$QUALITY" -sfbe 'mv $f /tmp/' -l style=dash,width=3,color="#2be491" &> /dev/null && \
-    dunstify -r 12 -t 750 -i -u Ss "" "Processing captured image .." || \
-    ( dunstify -r 12 -t 500 -i -u Ss "" "Screenshot canceled!" && exit 1 )
-    
-    for CURRENT in /tmp/*_scrot*.png; do
-        CURRENT="$(echo $CURRENT | awk -F'/tmp/' '{print $2}' | awk -F'.png' '{print $1}')"
-    done
-    
-    if [[ "$ENABLE_FRAME" = "yes" ]]; then
-        convert /tmp/"$CURRENT".png \
-        \( +clone -alpha extract -draw 'fill black polygon 0,0 0,8 8,0 fill white circle 8,8 8,0' \
-        \( +clone -flip \) -compose Multiply -composite \( +clone -flop \) -compose Multiply -composite \) \
-        -alpha off -compose CopyOpacity -composite /tmp/"$CURRENT"-rounded.png &> /dev/null
-
-        convert /tmp/"$CURRENT"-rounded.png \( +clone -background black -shadow "$FRAMED_SHADOW_OPACITY"x10+0+5 \) \
-        +swap -background none -layers merge +repage /tmp/"$CURRENT"-shadow.png &> /dev/null
-
-        convert /tmp/"$CURRENT"-shadow.png -bordercolor "$FRAME_COLOR" \
-        -border 5 "$SAVE_DIR/Screenshots/$CURRENT.png" &> /dev/null
-    else
-        cp /tmp/"$CURRENT".png "$SAVE_DIR/Screenshots/$CURRENT.png" &> /dev/null
-    fi
-
-    rm -f /tmp/*_scrot*.png &> /dev/null
-    if [[ -f "$SAVE_DIR/Screenshots/$CURRENT.png" ]]; then
-        dunstify -r 12 -i -u Ss "" "<span size='small'><u>$(echo $SAVE_DIR | grep -oE '[^/]+$' $1)/Screenshots</u></span>\nPicture acquired!"
-        [[ "$COPY_FRAMED" = "yes" ]] && [[ "$(type -p "xclip")" ]] && \
-        xclip -selection clipboard -target image/png -i "$SAVE_DIR/Screenshots/$CURRENT.png"
-        [[ "$OPEN_FRAMED" = "yes" ]] && [[ "$(type -p "viewnior")" ]] && \
-        viewnior "$SAVE_DIR/Screenshots/$CURRENT.png" &> /dev/null
-    fi
+    [[ ! -d "$SAVE_DIR/Screenshots" ]] && mkdir -p "$SAVE_DIR/Screenshots" || :
+    [[ "$1" = "delay" ]] && read -rt ".1" <> <(:) || :
+    scrot -q "$QUALITY" -e "mv '\$f' \"$SAVE_DIR/Screenshots\"" &> /dev/null
+    dunstify -r 11 -i "$NOTIF_SS_ICON" -u low "" "<span size='small'><u>$(echo $SAVE_DIR | grep -oE '[^/]+$' $1)/Screenshots</u></span>\nPicture acquired!"
 } &
