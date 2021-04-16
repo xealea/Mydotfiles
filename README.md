@@ -100,7 +100,7 @@ $ bash <file.sh>
 
 ------------------------------
 
-> Recommended
+> Recommended & Exit Root User Before enter this command
 ```bash
 
 $ rsync -avxHAXP --exclude '.git*' .* ~/
