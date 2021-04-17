@@ -10,14 +10,14 @@
 | Ark-Dotfiles |
 |-----------------------|
 |![img](images/ark.png)|
-
-| GIMP |
-|-----------------------|
+||
 |![img](images/gimp.png)|
-
-|1|2|3|
-|-|-|-|
-|![img](images/1.png)|![img](images/2.png)|![img](images/3.png)|
+||
+|![img](images/1.png)|
+||
+|![img](images/2.png)|
+||
+|![img](images/3.png)|
 
 ------------------------------
 <b><p align="center">Details</p></b>
