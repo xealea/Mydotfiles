@@ -13,7 +13,7 @@
 ||
 |![img](images/gimp.png)|
 ||
-|![img](images/1.png)|
+|![img](images/no1.png)|
 ||
 |![img](images/2.png)|
 ||
