@@ -207,6 +207,7 @@ $ cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
 * [bandithijo](https://github.com/bandithijo)
 * [6gk](https://github.com/6gk)
 * [adi1090x](https://github.com/adi1090x)
+* [cbrnix](https://github.com/cbrnix/)
 -----------------------------------------
 
 <b><p align="center">Buy me a ko-fi</p></b>
