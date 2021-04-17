@@ -17,7 +17,7 @@
 ||
 |![img](images/2.png)|
 ||
-|![img](images/3.png)|
+|![img](images/center.png)|
 
 ------------------------------
 <b><p align="center">Details</p></b>
