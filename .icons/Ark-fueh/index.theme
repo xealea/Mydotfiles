@@ -2,7 +2,7 @@
 Name=fuel
 Comment=Ark Personal Simple Icon
 Inherits=oomox-baloon,Papirus-Dark
-Directories=24/devices,scalable/devices,24/places,scalable/places
+Directories=24/devices,apps,emblems,mimetypes,panel,places,status,scalable/devices,24/places,devices,apps,emblems,mimetypes,panel,status,scalable/places
 
 # 24x24
 [24/places]
@@ -10,8 +10,33 @@ Context=Places
 Size=24
 Type=Fixed
 
+[24/apps]
+Context=Apps
+Size=24
+Type=Fixed
+
 [24/devices]
 Context=Devices
+Size=24
+Type=Fixed
+
+[24/emblems]
+Context=Emblems
+Size=24
+Type=Fixed
+
+[24/mimetypes]
+Context=Mimetypes
+Size=24
+Type=Fixed
+
+[24/panel]
+Context=Panel
+Size=24
+Type=Fixed
+
+[24/status]
+Context=Status
 Size=24
 Type=Fixed
 
@@ -25,6 +50,41 @@ Type=Scalable
 
 [scalable/places]
 Context=Places
+Size=64
+MinSize=25
+MaxSize=256
+Type=Scalable
+
+[scalable/apps]
+Context=Apps
+Size=64
+MinSize=25
+MaxSize=256
+Type=Scalable
+
+[scalable/status]
+Context=Status
+Size=64
+MinSize=25
+MaxSize=256
+Type=Scalable
+
+[scalable/emblems]
+Context=Emblems
+Size=64
+MinSize=25
+MaxSize=256
+Type=Scalable
+
+[scalable/mimetypes]
+Context=Mimetypes
+Size=64
+MinSize=25
+MaxSize=256
+Type=Scalable
+
+[scalable/panel]
+Context=Panel
 Size=64
 MinSize=25
 MaxSize=256

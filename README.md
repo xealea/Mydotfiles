@@ -114,7 +114,7 @@ $ rsync -avxHAXP --exclude '.git*' .* ~/
 
 ------------------------------
 
-> open terminal first ( note this not permanently set ) if you need set wallpaper permanently go to *~/.config/bspwm/bspwmrc* and edit this line line feh /path/to/wall/io-match.png
+> open terminal first ( note this not permanently set ) if you need set wallpaper permanently go to *~/.fehbg* and edit this line line feh --blabla /path/to/wall/io-match.png
 ```bash
 
 $ bash ~/.scripts/wallset
@@ -213,6 +213,6 @@ $ cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
 
 ------------------------------
 
-<p align="center"><a href="https://ko-fi.com/iocode"><img alt="banner" width="50%" src="https://www.ko-fi.com/img/githubbutton_sm.svg" /></a>
+<p align="center"><a href="https://ko-fi.com/iocode"><img alt="banner" width="30%" src="https://www.ko-fi.com/img/githubbutton_sm.svg" /></a>
 
 -----------------------------------------

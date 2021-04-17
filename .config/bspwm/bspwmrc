@@ -6,7 +6,6 @@ bspc monitor -d I II III IV V VI VII VIII IX X
 
 # Window Config --------------------------------------------------------------
 bspc config border_width         0
-bspc config border_radius        0
 bspc config window_gap           10
 bspc config top_padding          0
 bspc config bottom_padding       0
@@ -45,7 +44,7 @@ bspc rule -a Screenkey manage=off
 # ----------------------------------------------------------------------------
 
 # Set wall -------------------------------------------------------------------
-feh --bg-scale $HOME/.wallpaper/hifumi-left.png &
+~/.fehbg
 # ----------------------------------------------------------------------------
 
 # Mpd ------------------------------------------------------------------------
