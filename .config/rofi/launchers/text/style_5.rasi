@@ -1,16 +1,11 @@
 /*
  *
- * Author  : Aditya Shakya
- * Mail    : adi1090x@gmail.com
- * Github  : @adi1090x
- * Twitter : @adi1090x
- *
  */
 
 configuration {
-    lines:							5;
-    columns:						3;
-    font: 							"Iosevka Nerd Font 12";
+    lines:							3;
+    columns:						4;
+    font: 							"M+2 c medium 10";
     bw: 							0;
     location: 						0;
     padding: 						0;
@@ -95,8 +90,8 @@ listview {
 
 element {
     border: 						4px;
-    border-radius: 					4px;
-    padding: 						15px;
+    border-radius: 					0px;
+    padding: 						8px;
 }
 element normal.normal {
     background-color: 				@bg;
@@ -146,7 +141,7 @@ sidebar {
 
 button {
     background-color:             	@se;
-    margin: 						5px;
+    margin: 						4px;
     padding: 						15px;
     text-color: 					@fg;
     border: 						0px;
