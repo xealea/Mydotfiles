@@ -25,9 +25,9 @@ bspc config focus_follows_pointer true
 #bspc config ignore_ewmh_focus false
 bspc config remove_disabled_monitors true
 bspc config remove_unplugged_monitors true
-bspc config normal_border_color "#D6D6D6"
-bspc config active_border_color "#D6D6D6"
-bspc config focused_border_color "#FFFFFF"
+bspc config normal_border_color "#F4506D"
+bspc config active_border_color "#F4506D"
+bspc config focused_border_color "#F4506D"
 #bspc config auto_alternate true
 #bspc config auto_cancel true
 # ----------------------------------------------------------------------------
@@ -49,7 +49,7 @@ mpd ~/.mpd/config.conf &
 # ----------------------------------------------------------------------------
 
 # Compositor -----------------------------------------------------------------
-picom &
+# picom &
 # ----------------------------------------------------------------------------
 
 # Notify Dll -----------------------------------------------------------------
