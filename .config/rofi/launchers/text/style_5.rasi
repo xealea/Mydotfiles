@@ -11,7 +11,7 @@ configuration {
     padding: 						0;
     fixed-num-lines: 				true;
     show-icons: 					false;
-    sidebar-mode: 					true;
+    sidebar-mode: 					false;
     separator-style: 				"none";
     hide-scrollbar: 				true;
     fullscreen: 					true;
