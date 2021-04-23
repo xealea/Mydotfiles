@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale '/home/iocode/.wallpaper/iocode.png' 
+feh --no-fehbg --bg-scale '/home/iocode/.wallpaper/io-dark.png' 
