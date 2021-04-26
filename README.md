@@ -3,7 +3,7 @@
 <img alt="" align="right" src="https://badges.pufler.dev/visits/vcyzteen/Mydotfiles?style=flat-square&label=&color=fa74b2&logo=GitHub&logoColor=white&labelColor=373e4d"/>
 
 ------------------------------
-<b><p align="center">Bspwm - dotfiles - FLAT</p></b>
+<b><p align="center">Bspwm - dotfiles - WHITE</p></b>
 
 ------------------------------
 
@@ -20,20 +20,20 @@
 ---------------------------------------------------
 |         Item          | Value                   |
 | :-------------------: | :-----------------------|
-|          OS           | ArchLinux, artix runit  |
+|          OS           | ArchLinux, Artix runit  |
 |          WM           | bspwm                   |
 |         Shell         | zsh                     |
-|          DM           | lightdm                 |
+|          DM           | lightdm, Slim           |
 |         Font          | M+1 / M+2               |
 |      Compositor       | picom, compton          |
 |     Notification      | dunst                   |
 |       Terminal        | urxvt                   |
-|       Launcher        | rofi, dmenu             |
+|       Launcher        | rofi                    |
 |          Bar          | tint2                   |
-|       Wallpaper       | feh                     |
+|       Wallpaper       | feh ( scripts )         |
 |   Logout / Shutdown   | script                  |
 |    Volume Control     | pamixer, pulseaudio     |
-| Brightness Controller | keybind, mouse roll     |
+| Brightness Controller | keybind, scripts        |
 |    Network Applet     | networkmanager-dmenu    |
 |      Text Editor      | neovim                  |
 ---------------------------------------------------
@@ -106,86 +106,7 @@ $ rsync -avxHAXP --exclude '.git*' .* ~/
 
 ------------------------------
 
-> open terminal first ( note this not permanently set ) if you need set wallpaper permanently go to *~/.fehbg* and edit this line line feh --blabla /path/to/wall/io-match.png
-```bash
-
-$ bash ~/.scripts/wallset
-```
-
-------------------------------
-<b><p align="center">Slim Themes Ark-Hifumi</p></b>
-<p align="center">In fact, I use SLiM for default lockscreen.</p>
-<p align="center"><a href="https://drive.google.com/drive/folders/1_Ktq9kGqDi0TNC8Q49AWpLo2HvWkPhnQ?usp=sharing">
-<img src="https://github.com/vcyzteen/Mydotfiles/blob/master/images/hifumi.png" alt="Ark-red" align="center"/></a></p>
-<p align="center">Just click on the image above!</p>
-
-> enable slim service by
-
-    $ sudo systemctl disable lightdm.service 
-    $ sudo systemctl enable slim.service   
-
-> and if done next step
-    Extract .zip files and copy folder extracted to /usr/share/slim/themes/
-    Then edit the /etc/slim.conf file using text editor. Adjust, for example as follows:
-
-    current_theme Ark-Hifumi
-
-> and if you want use lock screen as default
-
-> uncomment this code first in /etc/slim.conf
-
-    # sessiondir            /usr/share/xsessions/
-
-> and next you can manage like this. go to .xinitrc by typing nano .xinitrc and added this code before last code
-
-```bash
-
-# slim-lockscreen
-
-DEFAULTSESSION=bspwm
-
-case "$1" in
-    bspwm) exec bspwm ;;
-    xfce) exec xfce4-session ;;
-    gnome3) exec gnome-session ;;
-    kde) exec startkde ;;
-    cinnamon) exec gnome-session-cinnamon ;;
-    razor-qt) exec razor-session ;;
-    lxde) exec lxsession ;;
-    mate) exec mate-session ;;
-    *) exec $DEFAULTSESSION ;;
-esac
-```
-> note if any exec command for bspwm ( double ) like in bellow .xinitrc have exec bspwm or dbus-launch bspwm you can delete and managed in above code
-
-------------------------------
-
-<b><p align="center">Spicetify - Theme</p></b>
-<p align="center">theme for spotify</p>
-<p align="center"><a href="https://github.com/vcyzteen/spicetify-themes/tree/master/Dribbblish">
-<img src="https://github.com/vcyzteen/spicetify-themes/blob/master/Dribbblish/2021-04-15-165740_1366x768_scrot.png" alt="Spotify-Theme-Ark" align="center"/></a></p>
-<p align="center">Just click on the image above!</p>
-
-> if you want install. first install spicetify cli by command
-
-    $ paru -S spicetify-cli
-
-> and if done next step you can download or clone git repo spicetify in image
-
-```bash
-
-$ git clone https://github.com/vcyzteen/spicetify-themes
-$ cd spicetify-themes
-$ cp -r * ~/.config/spicetify/Themes
-$ cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
-  mkdir -p ../../Extensions
-  cp dribbblish.js ../../Extensions/.
-  spicetify config extensions dribbblish.js
-  spicetify config current_theme Dribbblish color_scheme ark
-  spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
-  spicetify apply
-```
-> done?. go restart your spotify and BOOM!
+    You can set Via Tint2
 
 ------------------------------
 
@@ -200,6 +121,7 @@ $ cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
 * [6gk](https://github.com/6gk)
 * [adi1090x](https://github.com/adi1090x)
 * [cbrnix](https://github.com/cbrnix/)
+
 -----------------------------------------
 
 <b><p align="center">Buy me a ko-fi</p></b>
