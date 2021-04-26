@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+scrot '%Y-%m-%d_$wx$h_SS.png' -e 'mv $f ~/Pictures/Screenshots'
+notify-send Screenshots-Full

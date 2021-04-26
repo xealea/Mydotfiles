@@ -311,13 +311,30 @@ button_max_icon_size = 0
 #-------------------------------------
 # Button 4
 button = new
-button_text = 
-button_tooltip = Power Menu
-button_lclick_command = ~/.config/rofi/powermenu/powermenu.sh
-button_rclick_command = 
+button_text = 
+button_tooltip = Change wallpaper
+button_lclick_command = ~/.scripts/apps
+button_rclick_command = ~/.scripts/apps
 button_mclick_command = 
 button_uwheel_command = 
 button_dwheel_command = 
+button_font = Material 17
+button_font_color = #f9f9f9 100
+button_padding = 3 0
+button_background_id = 6
+button_centered = 1
+button_max_icon_size = 0
+
+#-------------------------------------
+# Button 5
+button = new
+button_text = 
+button_tooltip = Power Menu
+button_lclick_command = urxvt -e poweroff
+button_rclick_command = urxvt -e poweroff
+button_mclick_command =
+button_uwheel_command =
+button_dwheel_command =
 button_font = Material 17
 button_font_color = #f9f9f9 100
 button_padding = 3 0

@@ -1,20 +1,4 @@
 #!/usr/bin/env bash
 
-SAVE_DIR="$HOME/Pictures"
-TIMER_SEC="5"
-ENABLE_FRAME="yes"
-FRAME_COLOR="#2A2C3A"
-COPY_FRAMED="yes"
-OPEN_FRAMED="no"
-FRAMED_SHADOW_OPACITY="50"
-QUALITY="100"
-
-noterr() { dunstify -u low -r 11 "Install scrot!"; exit 1; }
-type -p "scrot" &> /dev/null || noterr
-
-{
-    [[ ! -d "$SAVE_DIR/Screenshots" ]] && mkdir -p "$SAVE_DIR/Screenshots" || :
-    [[ "$1" = "delay" ]] && read -rt ".1" <> <(:) || :
-    scrot -q "$QUALITY" -e "mv '\$f' \"$SAVE_DIR/Screenshots\"" &> /dev/null
-    dunstify -r 11 -i "$NOTIF_SS_ICON" -u low "" "<span size='small'><u>$(echo $SAVE_DIR | grep -oE '[^/]+$' $1)/Screenshots</u></span>\nPicture acquired!"
-} &
+scrot --line style=solid,width=3,color="#F9F9F9",opacity=100,mode=edge --select '%Y-%m-%d_$wx$h_SS.png' -e 'mv $f ~/Pictures/Screenshots'
+notify-send Screenshot-Select
