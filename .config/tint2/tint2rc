@@ -330,7 +330,7 @@ button_max_icon_size = 0
 # Button 5
 button = new
 button_text = 
-button_tooltip = Power Menu
+button_tooltip = Shutdown
 button_lclick_command = urxvt -e poweroff                    
 button_rclick_command = urxvt -e poweroff
 button_mclick_command =
