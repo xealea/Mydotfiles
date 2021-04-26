@@ -1,13 +1,14 @@
-sw_volume: 95
+sw_volume: 100
 audio_device_state:1:Pulseaudio
 audio_device_state:1:Visualizer
-state: stop
-current: 79
-random: 0
+state: play
+current: 5
+time: 122.121000
+random: 1
 repeat: 0
 single: 0
 consume: 0
-crossfade: 0
+crossfade: 2
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
@@ -125,4 +126,128 @@ playlist_begin
 111:01_Stereo_Hearts_feat_Adam_Levine(1).mp3
 112:01_01_STARDUST SONG.flac
 113:03. ふたりごと.flac
+114:Powfu - Death Bed (Lyrics) _dont stay away for too long_.mp3
+115:Maroon 5 ft. Wiz Khalifa - Payphone.mp3
+116:Martin Garrix & Bebe Rexha - In The Name Of Love (Official Video).mp3
+117:Masturbasi abadi.mp3
+118:mood (Gustixa Remix).mp3
+119:NEFFEX - Fight Back.mp3
+120:Nightcore - Letter Song 「 Wotamin 」 - YouTube.mp3
+121:Nightcore - Say Goodbye (Unknown Brain ft. Marvin Divine).mp3
+122:ok.   heiakim.mp3
+123:Oreo - Heiakim.m4a
+124:potato   heiakim.mp3
+125:Shaker - On My Own (Lyrics) _7clouds Release_.mp3
+126:YBuaeilCi1Y.mp3
+127:Yael Naim- New Soul (Tik Tok Remix).mp3
+128:XZXTvN6UXHc.mp3
+129:X3wYCb2tACk.mp3
+130:Umbrella - Mrs. GREEN APPLE.m4a
+131:Yonezu Kenshi  –  LOSER .mp3
+132:ヒロイン育成計画 feat. 涼海ひより（CV：水瀬いのり）／ HoneyWorks.mp3
+133:ろん -「おちゃめ機能」FUKKIRETA 【HD.256k.Kara】.mp3
+134:ワタシノテンシ feat.成海聖奈（CV：雨宮天）／ HoneyWorks.mp3
+135:ABSOLUTE.mp3
+136:All We Know CD 1 TRACK 1 (FLAC).flac
+137:Khalid - Young Dumb & Broke (Official Video).mp3
+138:2vOAHp8PBBFYqvQUWSoITY.mp3
+139:03. Baby Sweet Berry Love.flac
+140:04. _________.flac
+141:7 - Orange(1).mp3
+142:Kobasolo - Blue.flac
+143:Centimeter CD 1 TRACK 1 (FLAC).flac
+144:The Chainsmokers - Closer.mp3
+145:majiko - Kokoronashi.flac
+146:Melanie Martinez - Play Date.mp3
+147:STEREO DIVE FOUNDATION - Daisy (Kyoukai no Kanata ED).mp3
+148:Aimer - Brave Shine.mp3
+149:Aimer - Kataomoi.mp3
+150:[FVOst.net]_sweet_ARMS_-_Date_a_Live.mp3
+151:Aimer (エメ) - Kimiwo Matsu.mp3
+152:Deep End CD 1 TRACK 1 (FLAC).flac
+153:Dua Lipa - New Rules (Alison Wonderland Remix).mp3
+154:ZONE - Hitoshizuku.mp3
+155:ZONE - Secret Base -Kimiga Kuretamono.mp3
+156:Imagine Dragons - Thunder.mp3
+157:Steel Banglez - Fashion Week (feat AJ Tracey & MoStack).flac
+158:Again.mp3
+159:3ROII5AGBGpehdt7yN7VwD.mp3
+160:Goose house – Best Friend.mp3
+161:Sayaka_Kanda_Do_You_Want_to_Build_a_Snowman_Japanese_Version.flac
+162:01 Fukashigi no Karte.flac
+163:Fuwa Fuwa Time (From K-On!) CD 1 TRACK 1 (FLAC).flac
+164:takayan - Why.flac
+165:Halsey - Graveyard.mp3
+166:Diamond Eyes - Gravity.mp3
+167:Cao White - Hai Domo.mp3
+168:Hanabira CD 1 TRACK 3 (FLAC).flac
+169:Heart Afire CD 1 TRACK 1 (320).mp3
+170:Selphius - HENTAI.mp3
+171:Chord Overstreet - Hold On (Official Lyric Video).mp3
+172:HONEST -happy a word-.mp3
+173:Why Don t We - Hooked.mp3
+174:blackbear - hot girl bummer.mp3
+175:Doja Cat - Like That (feat Gucci Mane).flac
+176:Lauv - I Like Me Better.mp3
+177:Clara Mae - I m Not Her.mp3
+178:Kana Nishino - If.mp3
+179:RSP_-_Sakura_Anata_ni_Deaete_Yokatta_(mp3.pm).mp3
+180:Immunity CD 1 TRACK 7 (FLAC).flac
+181:fripSide - only my railgun.mp3
+182:LiSA - Crossing Field.mp3
+183:Celebration (feat. Toko Miura).mp3
+184:PUBLIC - Make You Mine (Official Lyric Video).mp3
+185:06. beautiful sky.flac
+186:Selphius - LOLI.flac
+187:TRUE - Sincerely.mp3
+188:MEDUZA - Lose Control.mp3
+189:Brian McKnight Jr - Marry Your Daughter.flac
+190:Maroon 5 - Memories.mp3
+191:Mogu Mogu YUMMY! CD 1 TRACK 1 (FLAC).flac
+192:Monkey Business CD 1 TRACK 1 (FLAC).flac
+193:Mood (Remix) CD 1 TRACK 1 (FLAC).flac
+194:Calvin Harris - Outside (feat Ellie Goulding).flac
+195:7.m4a
+196:My World CD 1 TRACK 1 (FLAC).flac
+197:Kobasolo - Natsurenbo.flac
+198:NCS Infinity CD 1 TRACK 1 (320).mp3
+199:NEFFEX - Destiny     [Copyright Free]   NEFFEX Music.mp3
+200:Nightcore - Senpai - t-hho2eieCY.m4a
+201:Halsey - Nightmare.mp3
+202:Arizona Zervas - ROXANNE (Official Video).mp3
+203:18. Natalie Taylor -  - Surrender.flac
+204:takayan - Numb.flac
+205:Marshmello - One Thing Right.mp3
+206:Imagine Dragons - Bad Liar.mp3
+207:01 - Peace Sign.mp3
+208:Aimer - Refrain.flac
+209:Maggie Lindemann - Pretty Girl - Cheat Codes X CADE Remix.mp3
+210:prxer kun - Nakitai Watashi wa Neko wo Kaburu Th rclXQTEhD7E.m4a
+211:Heiakim - Pekora.flac
+212:Roddy Ricch - The Box _Official Audio_.mp3
+213:Maroon 5 - Girls Like You (feat Cardi B).flac
+214:dj-Jo - Renai Circulation - Remix.flac
+215:Iyaz - Replay.flac
+216:OneRepublic - Rescue Me.mp3
+217:Katy Perry - Roar (Official).mp3
+218:Rainych - Say So - Japanese Version.mp3
+219:CHiCO with HoneyWorks - Sekaiwa Koi Ni Ochiteiru.mp3
+220:[FVOst.net] Aya Uchida - Sign.mp3
+221:Shape Of You.mp3
+222:Aoi.mp3
+223:QUIX - Survive [Arknights Soundtrack].mp3
+224:Ava Max - Sweet but Psycho.mp3
+225:TWICE - Likey.mp3
+226:[2020.07.24] TK from 凛として時雨 - unravel - From THE FIRST TAKE.flac
+227:1_5084917893196415071.mp3
+228:RADWIMPS - Grand Escape (Movie Edit) [feat Toko Miura].flac
+229:1 - Voice Of Wind.flac
+230:Surfaces - Sunday Best.mp3
+231:The Chainsmokers - Call You Mine.mp3
+232:01. WOW WAR TONIGHT～時には起こせよムーヴメント～.flac
+233:Without Me CD 1 TRACK 1 (FLAC).flac
+234:02. 気分上々↑↑.flac
+235:消え失せろ生理通 CD 1 TRACK 5 (FLAC).flac
+236:4LEUhfzL4PMnEflLc6JtLj.mp3
+237:3u0e8pyoVc7l2u3T5thohY.mp3
 playlist_end

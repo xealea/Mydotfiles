@@ -1,0 +1,11 @@
+/**
+ * Allows to change the settings of every menu simply by editing this file
+ */
+
+@import "colors.rasi"
+@import "reso.rasi"
+ 
+#window {
+  width: 100%;
+  height: 100%;
+}

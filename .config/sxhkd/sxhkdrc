@@ -188,7 +188,7 @@ alt + XF86AudioMute
 
 # screenshot
 ctrl + m
-   bash ~/.scripts/screenshot
+   bash ~/.scripts/screenshot-now
 
 # open telegram
 alt + t

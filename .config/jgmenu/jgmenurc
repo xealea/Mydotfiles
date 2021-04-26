@@ -31,14 +31,14 @@ sub_padding_bottom  = 0
 sub_padding_left    = 0
 sub_hover_action    = 1
 
-color_menu_bg       = #2a2c3a 90
-color_menu_border   = #2a2c3a 90
+color_menu_bg       = #42457c 90
+color_menu_border   = #f9f9f9 90
 
-color_norm_bg       = #282828 0
+color_norm_bg       = #f9f9f9 0
 color_norm_fg       = #ffffff 100
 
-color_sel_bg        = #f4506d 85
-color_sel_fg        = #2a2c3a 85
-color_sel_border    = #2a2c3a 0
+color_sel_bg        = #f9f9f9 85
+color_sel_fg        = #42457c 85
+color_sel_border    = #f9f9f9 0
 
 color_sep_fg        = #ffffff 0

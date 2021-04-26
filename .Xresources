@@ -65,16 +65,16 @@ URxvt.url-select.underline:       true
 
 ! COLOR SCHEME
 ! black > red > green > yellow > blue > magenta > cyan > white
-#define black0                    [100]#2A2C3A
+#define black0                    [100]#42457C
 #define black1                    #3B4252
-#define bl3                       #2A2C3A
-#define black3                    #F4506D
-#define blue0                     #F4506D
+#define red5                      #42457C
+#define black3                    #F9F9F9
+#define blue0                     #F9F9F9
 #define blue1                     #74A2E7
 #define yellow0                   #FA946E
 #define yellow1                   #FAA687
-#define purple0                   #F4506D
-#define blue4                     #F4506D
+#define purple0                   #F9F9F9
+#define blue4                     #F9F9F9
 #define magenta0                  #CF8EF4
 #define magenta1                  #D8A6F4
 #define cyan0                     #89CCF7
@@ -102,7 +102,7 @@ URxvt.url-select.underline:       true
 *.background:                     black0
 *.cursorColor:                    white0
 
-*.color0:                         bl3
+*.color0:                         red5
 *.color7:                         white1
 
 *.color8:                         black3
@@ -113,7 +113,7 @@ URxvt.url-select.underline:       true
 !*.cursorColor:                    black0
 
 !*.color0:                         white1
-!*.color7:                         bl3
+!*.color7:                         red5
 
 !*.color8:                         white2
 !*.color15:                        black3

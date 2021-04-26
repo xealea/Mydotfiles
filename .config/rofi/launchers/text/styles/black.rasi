@@ -1,11 +1,11 @@
 /* colors */
 
 * {
-  al:      #F4506D;
-  bg:      #2A2C3A;
-  se:      #F4506D;
-  fg:      #F4506D;
-  ac:      #F4506D;
+  al:      #F9F9F9;
+  bg:      #42457C;
+  se:      #F9F9F9;
+  fg:      #F9F9F9;
+  ac:      #F9F9F9;
   red:     #EC7875ff;
   green:   #61C766ff;
   yellow:  #FDD835ff;

@@ -116,7 +116,7 @@ framerate = 60
 # if supported, ncurses mode will be forced on if user defined colors are used.
 # default is to keep current terminal color
 background = default
-foreground = '#F4506D'
+foreground = '#F9F9F9'
 
 # Gradient mode, only hex defined colors (and thereby ncurses mode) are supported,
 # background must also be defined in hex  or remain commented out. 1 = on, 0 = off.
