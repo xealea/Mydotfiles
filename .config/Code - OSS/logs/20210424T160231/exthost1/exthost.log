@@ -1,9 +1,0 @@
-[2021-04-24 16:02:38.686] [exthost] [info] extension host started
-[2021-04-24 16:02:39.562] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
-[2021-04-24 16:02:39.562] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
-[2021-04-24 16:02:39.581] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
-[2021-04-24 16:02:39.584] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
-[2021-04-24 16:02:39.758] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
-[2021-04-24 16:02:39.763] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/iocode/.vscode-oss/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
-[2021-04-24 16:02:42.285] [exthost] [info] extension host terminating: received terminate message from renderer
-[2021-04-24 16:02:43.334] [exthost] [info] exiting with code 0
