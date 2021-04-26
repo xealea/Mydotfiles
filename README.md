@@ -9,12 +9,6 @@
 
 | Ark-Dotfiles |
 |-----------------------|
-|![img](images/ark.png)|
-||
-|![img](images/gimp.png)|
-||
-|![img](images/no1.png)|
-||
 |![img](images/center.png)|
 
 ------------------------------
