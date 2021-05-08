@@ -80,18 +80,6 @@ git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:=~/.oh-m
 $ git clone https://github.com/vcyzteen/Mydotfiles.git && cd Mydotfiles/
 ```
 ------------------------------
-<b><p align="center">Enable some service</p></b>
-
-------------------------------
-
-> systemd.sh for systemd and runit.sh for runit ( if lazy to enable one by one )
-```bash
-
-$ sudo su
-$ chmod +x runit.sh && chmod +x systemd.sh
-$ bash <file.sh>
-```
-------------------------------
 <b><p align="center">rsync file for replace dot file</p></b>
 
 ------------------------------
@@ -102,12 +90,13 @@ $ bash <file.sh>
 $ rsync -avxHAXP --exclude '.git*' .* ~/
 ```
 ------------------------------
-<b><p align="center">how set wallpaper</p></b>
+<b><p align="center">Refresh Font</p></b>
 
 ------------------------------
 
-    You can set Via Tint2
-
+```bash
+$ fc-cache -v
+```
 ------------------------------
 
 <b><p align="center">Credits & Many Thanks</p></b>
